@@ -1,10 +1,13 @@
 package org.hanghea.work4.gen;
 
 // 1. 클래스에 타입변수 지정
+// 제네릭은 클래스 또는 메서드에 사용이 가능합니다.
+// <> 안에 들으가야할 타입을 명시
 public class Generic<T> {
-    // 2. 프로퍼티 t의 타입변수 지정
+    // 2. 내부 필드에 String
     private T t;
-    // 3. 메서드의 리턴 타입에 타입변수 지정
+    // 3. 메서드의 리턴 타입에 String 지정
+    //1216test
     public T get() {
         return this.t;
     }
